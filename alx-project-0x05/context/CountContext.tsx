@@ -2,7 +2,7 @@ import { createContext, useContext,  useState, ReactNode } from "react"
 
 interface CountContextProps {
   count: number
-  increment: () => void,
+  increment: () => void;
   decrement: () => void;
 }
 
